@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Practica2Calculadora" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/rosapastel</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/rosapastel</item>
+    </style>
+
+    <style name="Theme.Practica2Calculadora" parent="Base.Theme.Practica2Calculadora" />
+
+    <style name="digitost">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Button1">
+        <item name="android:layout_height">75dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/formabtn</item>
+    </style>
+
+    <style name="Button2">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/formabtn2</item>
+    </style>
+
+</resources>
