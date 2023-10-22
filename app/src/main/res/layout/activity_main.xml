@@ -76,8 +76,8 @@
 
             <!-- BOTONES-->
             <Button
-                android:id="@+id/btnparentecis1"
-                android:text="( )"
+                android:id="@+id/doblecero"
+                android:text="00"
                 style="@style/Button1"/>
 
             <Button

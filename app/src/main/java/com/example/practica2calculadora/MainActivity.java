@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         Button btn7 = findViewById(R.id.btn7);
         Button btn8 = findViewById(R.id.btn8);
         Button btn9 = findViewById(R.id.btn9);
-        Button btnparentesis1 = findViewById(R.id.btnparentecis1);
+        Button btndoblecero = findViewById(R.id.doblecero);
         Button btnporcentaje = findViewById(R.id.btnporcentaje);
         Button btndivision = findViewById(R.id.btndivision);
         Button btnmulti = findViewById(R.id.btnmulti);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Button> opers = new ArrayList<>();
         opers.add(btndivision);
         opers.add(btnsuma);
-        opers.add(btnparentesis1);
+        opers.add(btndoblecero);
         opers.add(btnporcentaje);
         opers.add(btnresta);
         opers.add(btnmulti);
@@ -93,16 +93,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnparentesis1.setOnClickListener(view -> {
-            digitos.setText("");
-            digitos.append("0");
+        btndoblecero.setOnClickListener(view -> {
+            digitos.setText(digitos.getText().toString() + "00");
         });
 
-        /* btnpunto.setOnClickListener(view -> {
+        btnpunto.setOnClickListener(view -> {
             if(!digitos.getText().toString().contains(".")){
                 digitos.setText(digitos.getText().toString() + ".");
             }
-        }); */
+        });
 
         btnigual.setOnClickListener(view -> {
             if (n1 != 0 && operacion != null && !digitos.getText().toString().isEmpty()) {
